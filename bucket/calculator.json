@@ -1,10 +1,10 @@
 {
-    "version": "1.0.0",
-    "description": "A simple C++ calculator by Mayank",
+    "version": "1.0.1",
+    "description": "A simple C++ calculator by Mayank (version)",
     "homepage": "https://github.com/mayank-philips/mayank-bucket",
     "license": "MIT",
-    "url": "https://github.com/mayank-philips/mayank-bucket/releases/download/v1.0.0/calculator.exe",
-    "hash": "6E78D9750443B01BB68138F8F21581D5B666DEE7942818307E9F12483D49B95B",
+    "url": "https://github.com/mayank-philips/mayank-bucket/releases/download/v1.0.1/calculator.exe",
+    "hash": "DE4D81540A7C8D77BFDA3E5449D4F87BC20EA621AAB234105C06C7470DF6A684",
     "bin": "calculator.exe",
     "checkver": {
         "url": "https://github.com/mayank-philips/mayank-bucket/releases/latest",
