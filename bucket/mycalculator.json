@@ -1,0 +1,8 @@
+{
+    "version": "1.0.0",
+    "description": "A simple command-line calculator by Mayank.",
+    "homepage": "https://github.com/mayank-philips/mayank-bucket",
+    "url": "https://github.com/mayank-philips/mayank-bucket/releases/download/v1.0.0/MyCalculator.exe",
+    "hash": "16C303FF742B8AB34E14AD1A9BAE1F4E4D1186F87017B82C8D75E470E40D3737",
+    "bin": "MyCalculator.exe"
+}
