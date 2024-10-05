@@ -1,0 +1,15 @@
+
+{
+    "version": "1.0.0",
+    "description": "A simple Zipkin by Mayank",
+    "homepage": "https://github.com/mayank-philips/mayank-bucket",
+    "license": "MIT",
+    "url": "https://github.com/mayank-philips/mayank-bucket/releases/download/v1.0.0/example_zipkin.exe",
+    "hash": "64DBA4C992C8046718D73B6BC0C5BE1F84671A873539B440E49965DC3A912959",
+    "bin": "example_zipkin.exe",
+    "checkver": {
+        "url": "https://github.com/mayank-philips/mayank-bucket/releases/latest",
+        "regex": "v([\\d.]+)"
+    }
+    
+}
