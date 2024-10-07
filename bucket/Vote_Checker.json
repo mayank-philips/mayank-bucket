@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "description": "An application that checks voting eligibility and calculates the years left to attain voting age.",
+    "homepage": "https://github.com/mayank-philips/Vote_Checker",
+    "license": "MIT",
+    "url": "https://github.com/mayank-philips/Vote_Checker/releases/download/v1.0.0/Vote_Checker/.zip",
+    "hash": "B38B5D422531CCC1D970DA81B1DED4A1C17609D3B4F007E345D1C859F9D6C0E7",
+    "bin": "Vote_Checker/.exe",
+    "checkver": {
+        "github": "https://github.com/mayank-philips/Vote_Checker"
+    },
+    "autoupdate": {
+        "url": "https://github.com/mayank-philips/Vote_Checker/releases/download/v$version/Vote_Checker/.zip"
+    }
+}
