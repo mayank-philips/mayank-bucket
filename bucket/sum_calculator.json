@@ -4,7 +4,7 @@
     "homepage": "https://github.com/mayank-philips/Sum_calculator",
     "license": "MIT",
     "url": "https://github.com/mayank-philips/Sum_calculator/releases/download/v1.0.0/sum_calculator.zip",
-    "bin": "sum_calculator.py",
+    "bin": "sum_calculator.exe",
     "hash": "20678E80F6D47D6D9AABAE313FC6A9F56C06CE32E7156C163E2D5DCE3D631DF6",
     "pre_install": [
         "echo Checking for Python installation...",
