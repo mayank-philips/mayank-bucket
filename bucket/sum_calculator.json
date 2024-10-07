@@ -8,7 +8,8 @@
     "hash": "20678E80F6D47D6D9AABAE313FC6A9F56C06CE32E7156C163E2D5DCE3D631DF6",
     "pre_install": [
         "echo Checking for Python installation...",
-"if (-not (Get-Command python -ErrorAction SilentlyContinue)) { Write-Host 'Python is not installed. Installing via Scoop...'; scoop install python }",        "echo Creating necessary directories...",
-       
+        "if (-not (Get-Command python -ErrorAction SilentlyContinue)) { Write-Host 'Python is not installed. Installing via Scoop...'; scoop install python }",
+        "echo Creating necessary directories...",
+        "New-Item -Path 'C:\\ProgramData\\sum_calculator' -ItemType Directory -Force"
     ]
 }
