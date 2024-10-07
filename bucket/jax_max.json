@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0",
+    "description": "Jax_Max project for testing purposes.",
+    "homepage": "https://github.com/mayank-philips/Jax_Max",
+    "license": "MIT",
+    "url": "https://github.com/mayank-philips/Jax_Max/archive/refs/tags/v1.0.0.zip",
+    "hash": "3E05F4B365A7CDA0A0C9EF6B2ACC3C252598F75354345CDF2B40A6369F12F184",
+    "extract_dir": "Jax_Max-1.0.0",
+    "bin": "path/to/your/executable_or_script", 
+    "checkver": {
+        "url": "https://github.com/mayank-philips/Jax_Max/releases",
+        "re": "releases/tag/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/mayank-philips/Jax_Max/archive/refs/tags/v$version.zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
