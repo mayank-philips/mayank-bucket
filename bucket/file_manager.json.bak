@@ -5,10 +5,11 @@
     "license": "MIT",
     "url": "https://github.com/mayank-philips/file_manager/releases/download/v1.0.0/file_manager.zip",
     "bin": "file_manager.exe",
-    "hash": "sha256:your_hash_here",
+    "hash": "531D7D6A9DE791886218F55700FDE5D86ECE36EA6B1FF49B7A591AFBAC1AEE7F",
     "pre_install": [
         "echo Checking for required tools...",
         "where g++ || echo g++ is not installed. Please install it.",
+		 "where python >nul 2>nul || (echo Python is not installed. Installing via Scoop... && scoop install python)",
         "echo Creating necessary directories...",
         "mkdir C:\\ProgramData\\file_manager"
     ]
