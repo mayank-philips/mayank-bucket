@@ -7,10 +7,9 @@
     "bin": "file_manager.exe",
     "hash": "CF1D83ABAA0AC6882A68FD56DF41CBA22C4A13F713181582FC89BE794F5F9D5D",
     "pre_install": [
-        "echo Checking for required tools...",
-        "where g++ || echo g++ is not installed. Please install it.",
-		 "where python >nul 2>nul || (echo Python is not installed. Installing via Scoop... && scoop install python)",
-        "echo Creating necessary directories...",
-        "mkdir C:\\Users\\320265152\\workspace\\made_by_me"
-    ]
+    "echo Checking for required tools...",
+    "if (-not (Get-Command g++ -ErrorAction SilentlyContinue)) { Write-Host 'g++ is not installed. Please install it.' }",
+    "if (-not (Get-Command python -ErrorAction SilentlyContinue)) { Write-Host 'Python is not installed. Installing via Scoop...'; scoop install python }"
+]
+
 }
