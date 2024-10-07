@@ -11,6 +11,6 @@
         "where g++ || echo g++ is not installed. Please install it.",
 		 "where python >nul 2>nul || (echo Python is not installed. Installing via Scoop... && scoop install python)",
         "echo Creating necessary directories...",
-        "mkdir C:\\ProgramData\\file_manager"
+        "mkdir C:\\Users\\320265152\\workspace"
     ]
 }
