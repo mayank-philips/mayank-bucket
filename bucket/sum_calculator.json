@@ -3,9 +3,9 @@
     "description": "A simple application to calculate the sum of numbers up to a specified limit",
     "homepage": "https://github.com/mayank-philips/Sum_calculator",
     "license": "MIT",
-    "url": "https://github.com/mayank-philips/Sum_calculator/releases/download/v1.0.0/sum_calculator.zip",
+    "url": "https://github.com/mayank-philips/Sum_calculator/releases/download/v1.0.0/Hello.zip",
     "bin": "sum_calculator.exe",
-    "hash": "20678E80F6D47D6D9AABAE313FC6A9F56C06CE32E7156C163E2D5DCE3D631DF6",
+    "hash": "004F4C17C03419E2FE787FFDA255F572ECD90F6E2D0AF41CCADEF9298C9B56B2",
     "pre_install": [
         "echo Checking for Python installation...",
         "if (-not (Get-Command python -ErrorAction SilentlyContinue)) { Write-Host 'Python is not installed. Installing via Scoop...'; scoop install python }",
