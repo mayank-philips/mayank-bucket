@@ -6,7 +6,7 @@
     "url": "https://github.com/mayank-philips/mayank-bucket/releases/download/v1.0.0/AppOS.zip",
     "hash": "004F4C17C03419E2FE787FFDA255F572ECD90F6E2D0AF41CCADEF9298C9B56B2",
     "bin": [
-        "appos_launcher.exe",
+        "appos_launcher.exe"
         
     ],
     "pre_install": [
