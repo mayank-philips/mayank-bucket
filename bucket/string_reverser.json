@@ -3,9 +3,9 @@
 {
     "version": "1.0.0",
     "description": "Reverses a given string input.",
-    "homepage": "https://github.com/mayank-philips/mayank-bucket",
+    "homepage": "https://github.com/mayank-philips/string_reverser",
     "license": "MIT",
-    "url": "https://github.com/mayank-philips/mayank-bucket/releases/download/v1.0.0/string_reverser.exe",
+    "url": "https://github.com/mayank-philips/string_reverser/releases/download/v1.0.0/string_reverser.exe",
     "bin": "string_reverser.exe",
     "hash": "68CA004E3AE29FD777255A6086FB9F904FE9C0E670361F5656B0F4705007DAEF",
     "pre_install": [
