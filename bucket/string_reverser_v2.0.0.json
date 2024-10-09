@@ -1,0 +1,15 @@
+
+
+{
+    "version": "2.0.0",
+    "description": "A simple application to reverse a string and print its length.",
+    "homepage": "https://github.com/mayank-philips/string_reverser",
+    "license": "MIT",
+    "url": "https://github.com/mayank-philips/string_reverser/releases/download/v2.0.0/string_reverser.exe",
+    "bin": "string_reverser.exe",
+    "hash": "41EDEAB0FD34BF798D7C2BC0DCC8DF11232A3FDB966B4EC3D0CAA562C91F3221",
+    "pre_install": [
+        "echo Setting up necessary directories...",
+        "New-Item -Path 'C:\\ProgramData\\string_reverser' -ItemType Directory -Force"
+    ]
+}
