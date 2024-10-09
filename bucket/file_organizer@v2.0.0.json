@@ -1,17 +1,15 @@
+
+
 {
     "version": "2.0.0",
-    "description": "A simple command-line file management tool",
-    "homepage": "https://github.com/mayank-philips/file_organizer",
+    "description": "A simple application to reverse a string and print its length.",
+    "homepage": "https://github.com/mayank-philips/string_reverser",
     "license": "MIT",
-    "url": "https://github.com/mayank-philips/file_organizer/releases/download/v2.0.0/file_manager.zip",
-    "hash": "CF1D83ABAA0AC6882A68FD56DF41CBA22C4A13F713181582FC89BE794F5F9D5D",
-    "bin": "file_manager.exe",
+    "url": "https://github.com/mayank-philips/string_reverser/releases/download/v2.0.0/string_reverser.exe",
+    "bin": "string_reverser.exe",
+    "hash": "41EDEAB0FD34BF798D7C2BC0DCC8DF11232A3FDB966B4EC3D0CAA562C91F3221",
     "pre_install": [
-        "echo Checking for required tools...",
-        "if (-not (Get-Command g++ -ErrorAction SilentlyContinue)) { Write-Host 'g++ is not installed. Please install it.' }",
-        "if (-not (Get-Command python -ErrorAction SilentlyContinue)) { Write-Host 'Python is not installed. Installing via Scoop...'; scoop install python }",
-        "if (-not (Test-Path 'C:\\ProgramData\\file_manager')) { New-Item -Path 'C:\\ProgramData\\file_manager' -ItemType Directory; Write-Host 'Created directory C:\\ProgramData\\file_manager' }",
-        "if (-not (Get-Command pip -ErrorAction SilentlyContinue)) { Write-Host 'pip is not installed. Please install it.' }",
-        "pip install numpy"
+        "echo Setting up necessary directories...",
+        "New-Item -Path 'C:\\ProgramData\\string_reverser' -ItemType Directory -Force"
     ]
 }
