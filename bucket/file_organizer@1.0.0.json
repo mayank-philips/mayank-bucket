@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "description": "A simple command-line file management tool",
+    "homepage": "https://github.com/mayank-philips/file_organizer",
+    "license": "MIT",
+    "url": "https://github.com/mayank-philips/file_manager/releases/download/v1.0.0/file_manager.zip",
+    "bin": "file_manager.exe",
+    "hash": "CF1D83ABAA0AC6882A68FD56DF41CBA22C4A13F713181582FC89BE794F5F9D5D",
+   "pre_install": [
+        "echo Checking for required tools...",
+        "if (-not (Get-Command g++ -ErrorAction SilentlyContinue)) { Write-Host 'g++ is not installed. Please install it.' }",
+        "if (-not (Get-Command python -ErrorAction SilentlyContinue)) { Write-Host 'Python is not installed. Installing via Scoop...'; scoop install python }",
+        "if (-not (Test-Path 'C:\\ProgramData\\file_manager')) { New-Item -Path 'C:\\ProgramData\\file_manager' -ItemType Directory; Write-Host 'Created directory C:\\ProgramData\\file_manager' }",
+        "if (-not (Get-Command pip -ErrorAction SilentlyContinue)) { Write-Host 'pip is not installed. Please install it.' }",
+        "pip install numpy"
+    ]
+
+
+}
