@@ -11,5 +11,8 @@
     "pre_install": [
         "echo Setting up necessary directories...",
         "New-Item -Path 'C:\\ProgramData\\string_reverser' -ItemType Directory -Force"
-    ]
+    ],
+     "url": "https://github.com/mayank-philips/string_reverser/releases/download/v$version/string_reverser.exe"
+
+    
 }
