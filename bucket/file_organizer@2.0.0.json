@@ -1,9 +1,9 @@
 {
     "version": "2.0.0",
     "description": "A simple command-line file management tool",
-    "homepage": "https://github.com/mayank-philips/file_manager",
+    "homepage": "https://github.com/mayank-philips/file_organizer",
     "license": "MIT",
-    "url": "https://github.com/mayank-philips/file_manager/releases/download/v2.0.0/file_manager.zip",
+    "url": "https://github.com/mayank-philips/file_organizer/releases/download/v2.0.0/file_manager.zip",
     "hash": "CF1D83ABAA0AC6882A68FD56DF41CBA22C4A13F713181582FC89BE794F5F9D5D",
     "bin": "file_manager.exe",
     "pre_install": [
