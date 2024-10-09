@@ -14,6 +14,7 @@
         "if (-not (Get-Command pip -ErrorAction SilentlyContinue)) { Write-Host 'pip is not installed. Please install it.' }",
         "pip install numpy"
     ]
-
-
+    "autoupdate": {
+        "url": "https://github.com/mayank-philips/file_manager/releases/download/v$version/file_manager.zip"
+    }
 }
