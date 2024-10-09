@@ -10,6 +10,6 @@
         "github": "https://github.com/mayank-philips/MyCalculator"
     },
     "autoupdate": {
-        "url": "https://github.com/mayank-philips/Vote_Checker/releases/download/v$version/MyCalculator.zip"
+        "url": "https://github.com/mayank-philips/Vote_Checker/releases/download/$version/MyCalculator.zip"
     }
 }
