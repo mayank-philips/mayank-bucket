@@ -9,7 +9,7 @@
    
     "checkver": {
         "url": "https://github.com/mayank-philips/Print/releases/latest",
-        "regex": v"([\\d.]+)",
+        "regex": "v([\\d.]+)",
          "description": "the regex values is $regex"
     },
     "autoupdate": {
