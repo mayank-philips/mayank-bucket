@@ -3,15 +3,15 @@
     "description": "An application that prints hello world.",
     "homepage": "https://github.com/mayank-philips/mayank-bucket",
     "license": "MIT",
-    "url": "https://github.com/mayank-philips/Print/releases/download/v3.0.0/print_3.exe",
+    "url": "https://github.com/mayank-philips/Print/releases/download/v3.0.0/main.exe",
     "hash": "191108A1D233AB997B3FF66F7EB35635B04607A34864115D8B285C712DDBF1BB",
-    "bin": "print_3.exe",
+    "bin": "main.exe",
    
     "checkver": {
         "url": "https://github.com/mayank-philips/Print/releases/latest",
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/mayank-philips/Print/releases/download/$version/$version.exe"
+        "url": "https://github.com/mayank-philips/Print/releases/download/$version/main.exe"
     }
 }
