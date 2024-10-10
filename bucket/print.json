@@ -12,6 +12,6 @@
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/mayank-philips/Print/releases/download/v$version/$version.exe"
+        "url": "https://github.com/mayank-philips/Print/releases/download/$version/$version.exe"
     }
 }
