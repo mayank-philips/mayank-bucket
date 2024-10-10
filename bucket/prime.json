@@ -1,0 +1,17 @@
+{
+     "version": "$version",
+    "description": "An application that prints hello world.",
+    "homepage": "https://github.com/mayank-philips/mayank-bucket",
+    "license": "MIT",
+    "url": "https://github.com/mayank-philips/prime/releases/download/$version/main.exe",
+    "hash": "191108A1D233AB997B3FF66F7EB35635B04607A34864115D8B285C712DDBF1BB",
+    "bin": "main.exe",
+   
+    "checkver": {
+        "url": "https://github.com/mayank-philips/prime/releases/latest",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/mayank-philips/prime/releases/download/$version/$version.exe"
+    }
+}
