@@ -1,0 +1,27 @@
+{
+    "version": "1.0.0",
+    "description": "Batch files to open personal repositories",
+    "homepage": "https://github.com/mayank-philips/AppStore",  // Update if necessary
+    "license": "MIT",  // Change if required
+    "architecture": {
+        "64bit": {
+            "bin": [
+                "AppEngineRepo.bat",
+                "AppEngineTB.bat"
+                
+            ]
+        }
+    },
+    "url": "https://github.com/mayank-philips/AppStore/releases/download/v1.0.0/bacth_files.zip",  
+    "hash": "7C53CF70E05014CBFAF88AA942BCBF2E17C003F232CC90EB182A65AA986F295D",  
+
+ "checkver": {
+        "url": "https://github.com/mayank-philips/AppStore/releases/latest",
+        "regex": "v([\\d.]+)"
+        
+    },
+    "autoupdate": {
+        "url": "https://github.com/mayank-philips/AppStore/releases/download/$version/main.exe"
+    }
+    
+}
