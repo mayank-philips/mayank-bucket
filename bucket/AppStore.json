@@ -1,8 +1,8 @@
 {
     "version": "1.0.0",
     "description": "Batch files to open personal repositories",
-    "homepage": "https://github.com/mayank-philips/AppStore",  // Update if necessary
-    "license": "MIT",  // Change if required
+    "homepage": "https://github.com/mayank-philips/AppStore", 
+    "license": "MIT",  
     "architecture": {
         "64bit": {
             "bin": [
