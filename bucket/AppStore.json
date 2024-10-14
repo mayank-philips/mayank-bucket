@@ -8,13 +8,14 @@
             "bin": [
                 "AppEngineRepo.bat",
                 "AppEngineTaskBoard.bat",
-                "AppEngineAF.bat"
+                "AppEngineAF.bat",
+                "AppEngineLearning"
                 
             ]
         }
     },
     "url": "https://github.com/mayank-philips/AppStore/releases/download/v1.0.0/batch_files.zip",  
-    "hash": "1EBC82435958A02D640EFEA378F642257D4704FA740CCF67ED7970C33EFF264B",  
+    "hash": "993D6AB1A59970806EB298B5B2DFFC0153B9BB37566455A5734C76C0A32DEB16",  
 
     
 
