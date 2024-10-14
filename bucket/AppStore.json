@@ -25,7 +25,7 @@
         
     },
     "autoupdate": {
-        "url": "https://github.com/mayank-philips/AppStore/releases/download/$version/main.exe"
+        "url": "https://github.com/mayank-philips/AppStore/releases/download/$version/batch_files.zip"
     }
     
 }
