@@ -8,7 +8,8 @@
             "bin": [
                 "AppEngineRepo.bat",
                 "AppEngineTaskBoard.bat",
-                "AppEngineAF.bat"
+                "AppEngineAF.bat",
+                  "AppEngineLearning.bat"
               
                 
             ]
