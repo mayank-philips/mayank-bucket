@@ -7,7 +7,7 @@
         "64bit": {
             "bin": [
                 "AppEngineRepo.bat",
-                "AppEngineTB.bat"
+                "AppEngineTaskBoard.bat"
                 
             ]
         }
