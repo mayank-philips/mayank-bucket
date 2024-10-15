@@ -1,0 +1,17 @@
+
+
+{
+    "version": "1.0.0",
+    "description": "An application will open the interface to open apps easily.",
+    "homepage": "https://github.com/mayank-philips/App",
+    "license": "MIT",
+    "url": "https://github.com/mayank-philips/App/releases/download/v1.0.0/main.exe",
+    "hash": "9E49E26B62F82BD48D606167586D72419CDA13F615B3F979F08B31ACD5285DFD",
+    "bin": "main.exe",
+    "checkver": {
+        "github": "https://github.com/mayank-philips/App/releases/latest"
+    },
+    "autoupdate": {
+        "url": "https://github.com/mayank-philips/App/releases/download/$version/main.exe"
+    }
+}
