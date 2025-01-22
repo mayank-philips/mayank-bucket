@@ -7,21 +7,21 @@
         "64bit": {
             "bin": [
                 "AppEngineRepo.bat",
-                "AppEngineTaskBoard.bat",
+                "AppEngineTB.bat",
                 "AppEngineAF.bat",
                 "AppEngineLearning.bat"
             ]
         }
     },
-    "url": "https://github.com/mayank-philips/AppStore/releases/download/v2.0.0/batch_files.zip",
-    "hash": "3a36c1b8744f2119d3ef3bee4346731e233c5eb38ec285c2900248110447fdb6",
+    "url": "https://github.com/mayank-philips/AppStore/releases/download/v1.0.0/batch_files.zip",
+    "hash": "901B0C4FFF2DA8CA5F7475B7D98680321BF792DFDC0F83AE0E66BAF3905D3F79",
     "shortcuts": [
         [
             "AppEngineRepo.bat",
             "ae-repo"
         ],
         [
-            "AppEngineTaskBoard.bat",
+            "AppEngineTB.bat",
             "ae-tb"
         ]
     ],
